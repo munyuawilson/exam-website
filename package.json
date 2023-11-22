@@ -10,12 +10,15 @@
         "production": "mix --production"
     },
     "devDependencies": {
-        "axios": "^0.21",
+        "@babel/preset-react": "^7.23.3",
+        "axios": "^1.6.2",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
     },
     "dependencies": {
-        "react-bootstrap": "^2.9.1"
+        "react": "^18.2.0",
+        "react-bootstrap": "^2.9.1",
+        "react-dom": "^18.2.0"
     }
 }
