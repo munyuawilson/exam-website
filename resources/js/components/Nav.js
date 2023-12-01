@@ -1,14 +1,16 @@
 
 import React from 'react';
+import "/css/app.css";
+
 
 
 
 export default function Nav(){
 
-    return(
-        <nav className="container-fluid navbar bg-success navbar-expand-md fixed-top mb-5 color px-5">
-  <a className="navbar-brand text-black" aria-current="page" href="">
-    <img src="assets/Santa-Year-Round-Logo.png" height="70px" alt="logo" />
+    return(<div className='color'>
+        <nav className="container-fluid navbar  navbar-expand-md fixed-top mb-5 color px-5">
+  <a className="navbar-brand text-black" aria-current="page" href="">Tuko site
+    
     <span className="text-danger" />
   </a>
   <button
@@ -58,6 +60,18 @@ export default function Nav(){
     </ul>
   </div>
 </nav>
+<div className='container mt-5 py-3'>
+<div className='row'>
+    <div className='col'>
+      <p>Hello</p>
+    </div>
+    <div className='col'> 
+    <img src='.../storage/app/public/web.jpg'/>
+
+    </div>
+  </div>
+</div>
+</div>
 
     )
 
