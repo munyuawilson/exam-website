@@ -7,7 +7,7 @@ import "/css/app.css";
 
 export default function Nav(){
 
-    return(<div className='color'>
+    return(<div className='container-fluid color pb-5'>
         <nav className="container-fluid navbar  navbar-expand-md fixed-top mb-5 color px-5">
   <a className="navbar-brand text-black" aria-current="page" href="">Tuko site
     
@@ -54,19 +54,20 @@ export default function Nav(){
           className="nav-link text-white rounded px-3 py-2 bg-black"
           href="#contact"
         >
-          Get a quote
+          Sign In
         </a>
       </li>
     </ul>
   </div>
 </nav>
 <div className='container mt-5 py-3'>
-<div className='row'>
-    <div className='col'>
-      <p>Hello</p>
+<div className='row mt-5'>
+    <div className='col-lg pt-2'>
+      <h2 className='text-white pt-3'>Hello</h2>
+      <p className='pt-5'>Lorem cx vhjzxbjbzcjhz zbjhzfh fhbxhb sdjbjhxb bjhjx</p>
     </div>
-    <div className='col'> 
-    <img src='.../storage/app/public/web.jpg'/>
+    <div className='col-lg px-2'> 
+    <img src='/storage/web.png' height={300}/>
 
     </div>
   </div>

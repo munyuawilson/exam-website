@@ -9,6 +9,7 @@
 </head>
 <body>
     <div id="nav"></div>
+    <div id='body'></div>
     
 </body>
 <script src="js/app.js"></script>
