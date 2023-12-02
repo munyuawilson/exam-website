@@ -12,6 +12,7 @@ export default function Body(){
                 
             <img src="/storage/bar.jpg" height={200}/>
                 </div>
+                
                 <div className='col-lg'>
                 
 
