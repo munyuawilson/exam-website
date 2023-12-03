@@ -192,20 +192,55 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Body() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-    className: "container mt-5",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-      className: "row",
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+    className: "container mt-5 ",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "container text-center mb-3 ",
+      children: ["  ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("ul", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+          className: "list-inline px-5",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+            src: "storage/karu.png",
+            height: 50
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+          className: "list-inline px-5",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+            src: "storage/uon.jpg",
+            height: 50
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+          className: "list-inline px-5",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+            src: "storage/meru.jpg",
+            height: 50
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+          className: "list-inline px-5",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+            src: "storage/ku.png",
+            height: 50
+          })
+        })]
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "row mt-5",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
         className: "col-lg",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
           src: "/storage/bar.jpg",
           height: 200
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-        className: "col-lg"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+        className: "col-lg px-2",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h2", {
+          className: "text-center",
+          children: "hello"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+          children: "cnn fv Lorem kdfnkvkklldfkl djnjdfvnjnd dbjd dbjnd bjdvjjd jdbjbjd jdbjb"
+        })]
       })]
-    })
+    })]
   });
 }
 
@@ -2189,7 +2224,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".color{\n\n    background: rgb(131,58,180);\nbackground: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(236,22,22,1) 45%, rgba(252,176,69,1) 100%);\n}\n\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".color{\n\n    background: rgb(131,58,180);\nbackground: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(236,22,22,1) 45%, rgba(252,176,69,1) 100%);\n}\n\n.list-inline{\n    display: inline;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
