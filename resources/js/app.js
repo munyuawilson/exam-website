@@ -9,6 +9,7 @@ import Testimonial from './components/testimonial';
 
 import ReactDOM from 'react-dom';
 import Brand from './components/brand';
+import Secondsection from './components/secondsection';
 
 
 ReactDOM.render(<Nav />,document.getElementById("nav"));
@@ -18,3 +19,4 @@ ReactDOM.render(<Footer />,document.getElementById("footer"));
 ReactDOM.render(<Pricing />,document.getElementById("pricing"));
 ReactDOM.render(<Testimonial />,document.getElementById("testimonial"));
 
+ReactDOM.render(<Secondsection />,document.getElementById("secondsection"));
