@@ -12,6 +12,7 @@
     <div id='body'></div>
     <div id='services'></div>
     <div id='pricing'></div>
+    <div id='testimonial'></div>
     <div id='footer'></div>
     
     

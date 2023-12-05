@@ -14,8 +14,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_services__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/services */ "./resources/js/components/services.js");
 /* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/footer */ "./resources/js/components/footer.js");
 /* harmony import */ var _components_pricing__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/pricing */ "./resources/js/components/pricing.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _components_testimonial__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/testimonial */ "./resources/js/components/testimonial.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
@@ -24,11 +25,13 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
-react_dom__WEBPACK_IMPORTED_MODULE_5__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_0__["default"], {}), document.getElementById("nav"));
-react_dom__WEBPACK_IMPORTED_MODULE_5__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_body__WEBPACK_IMPORTED_MODULE_1__["default"], {}), document.getElementById("body"));
-react_dom__WEBPACK_IMPORTED_MODULE_5__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_services__WEBPACK_IMPORTED_MODULE_2__["default"], {}), document.getElementById("services"));
-react_dom__WEBPACK_IMPORTED_MODULE_5__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {}), document.getElementById("footer"));
-react_dom__WEBPACK_IMPORTED_MODULE_5__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_pricing__WEBPACK_IMPORTED_MODULE_4__["default"], {}), document.getElementById("pricing"));
+
+react_dom__WEBPACK_IMPORTED_MODULE_6__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_0__["default"], {}), document.getElementById("nav"));
+react_dom__WEBPACK_IMPORTED_MODULE_6__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_body__WEBPACK_IMPORTED_MODULE_1__["default"], {}), document.getElementById("body"));
+react_dom__WEBPACK_IMPORTED_MODULE_6__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_services__WEBPACK_IMPORTED_MODULE_2__["default"], {}), document.getElementById("services"));
+react_dom__WEBPACK_IMPORTED_MODULE_6__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {}), document.getElementById("footer"));
+react_dom__WEBPACK_IMPORTED_MODULE_6__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_pricing__WEBPACK_IMPORTED_MODULE_4__["default"], {}), document.getElementById("pricing"));
+react_dom__WEBPACK_IMPORTED_MODULE_6__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_testimonial__WEBPACK_IMPORTED_MODULE_5__["default"], {}), document.getElementById("testimonial"));
 
 /***/ }),
 
@@ -691,6 +694,127 @@ function Services() {
           })
         })
       })
+    })]
+  });
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/testimonial.js":
+/*!************************************************!*\
+  !*** ./resources/js/components/testimonial.js ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Testimonial)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_app_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../css/app.css */ "./public/css/app.css");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+function Testimonial() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+    className: "container",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
+      className: "text-black text-center mt-2",
+      children: "Testimonials"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "row mt-3",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "col-lg-4",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "card color",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "face front-face",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+              src: "https://images.unsplash.com/photo-1557862921-37829c790f19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+              alt: "",
+              className: "profile"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "pt-3 text-uppercase name",
+              children: "Robert Garrison"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "designation",
+              children: "Android Developer"
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "face back-face",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+              className: "fas fa-quote-left"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "testimonial",
+              children: "I made bacck the purchase price in just 48 hours! Thank you for making it pain less, pleasant. The service was execellent. I will refer everyone I know."
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+              className: "fas fa-quote-right"
+            })]
+          })]
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "col-lg-4",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "card color",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "face front-face",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+              src: "https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+              alt: "",
+              className: "profile"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "pt-3 text-uppercase name",
+              children: "Jeffery Kennan"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "designation",
+              children: "Full Stack Developer"
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "face back-face",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+              className: "fas fa-quote-left"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "testimonial",
+              children: "Really good, you have saved our business! I made bacck the purchase price in just 48 hours! man, this thing is getting better and better as I learn more about it."
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+              className: "fas fa-quote-right"
+            })]
+          })]
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "col-lg-4",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          className: "card color",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "face front-face",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+              src: "https://images.unsplash.com/photo-1614574762522-6ac2fbba2208?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjY2fHxtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+              alt: "",
+              className: "profile"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "pt-3 text-uppercase name",
+              children: "Issac Maxwell"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "designation",
+              children: "Finance Director"
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            className: "face back-face",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+              className: "fas fa-quote-left"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+              className: "testimonial",
+              children: "Account keeper is the most valuable business research we have EVER purchased. Without electrician, we would ahave gone bankrupt by now."
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+              className: "fas fa-quote-right"
+            })]
+          })]
+        })
+      })]
     })]
   });
 }
@@ -2674,8 +2798,9 @@ __webpack_require__.r(__webpack_exports__);
 // Imports
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".color{\n\n    background: rgb(131,58,180);\nbackground: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(236,22,22,1) 45%, rgba(252,176,69,1) 100%);\n}\n\n.list-inline{\n    display: inline;\n}\n#services .services-top {\n    padding: 70px 0 50px;\n}\n#services .services-list {\n    padding-top: 50px;\n}\n.services-list .service-block {\n    margin-bottom: 25px;\n}\n.services-list .service-block .ico {\n    font-size: 38px;\n    float: left;\n}\n.services-list .service-block .text-block {\n    margin-left: 58px;\n}\n.services-list .service-block .text-block .name {\n    font-size: 20px;\n    font-weight: 900;\n    margin-bottom: 5px;\n}\n.services-list .service-block .text-block .info {\n    font-size: 16px;\n    font-weight: 300;\n    margin-bottom: 10px;\n}\n.services-list .service-block .text-block .text {\n    font-size: 12px;\n    line-height: normal;\n    font-weight: 300;\n}\n.highlight {\n    color: #2ac5ed;\n    font-weight:bold;\n}                    \n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".color{\n\n    background: rgb(131,58,180);\nbackground: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(236,22,22,1) 45%, rgba(252,176,69,1) 100%);\n}\n\n.list-inline{\n    display: inline;\n}\n#services .services-top {\n    padding: 70px 0 50px;\n}\n#services .services-list {\n    padding-top: 50px;\n}\n.services-list .service-block {\n    margin-bottom: 25px;\n}\n.services-list .service-block .ico {\n    font-size: 38px;\n    float: left;\n}\n.services-list .service-block .text-block {\n    margin-left: 58px;\n}\n.services-list .service-block .text-block .name {\n    font-size: 20px;\n    font-weight: 900;\n    margin-bottom: 5px;\n}\n.services-list .service-block .text-block .info {\n    font-size: 16px;\n    font-weight: 300;\n    margin-bottom: 10px;\n}\n.services-list .service-block .text-block .text {\n    font-size: 12px;\n    line-height: normal;\n    font-weight: 300;\n}\n.highlight {\n    color: #2ac5ed;\n    font-weight:bold;\n}                \n\n.our_pricing {\n    background-image: url(https://www.bootdey.com/image/280x280/9370DB/000000);\n    background-size: 100%;\n    background-repeat: no-repeat;\n    background-position: top center;\n    position: relative;\n    margin-top:120px;\n    padding:20px;\n}\n\n@media only screen and (max-width:480px) {\n    .our_pricing {\n        background-size: auto;\n    }\n}\n\n.pricingTable {\n    background: #fff none repeat scroll 0 0;\n    color: #232434;\n    margin-top: 30px;\n    padding: 50px 15px;\n    box-shadow: 0px 19px 43px 0px rgba(17, 17, 17, 0.05);\n    perspective: 700px;\n    position: relative;\n    text-align: center;\n    transition: all 0.3s ease-in-out 0s;\n    z-index: 1;\n}\n\n@media only screen and (max-width:480px) {\n    .pricingTable {\n        margin-bottom: 60px;\n    }\n}\n\n.pricingTabletop {\n    margin-top: -30px;\n}\n\n.pricingTable .pricingTable-header {}\n\n.pricingTable .title {\n    display: block;\n    font-size: 24px;\n    font-weight: 600;\n    text-transform: capitalize;\n    transition: all 0.3s ease-in-out 0s;\n}\n\n.pricingTable .price-month {\n    font-size: 16px;\n    font-weight: 500;\n    margin-top: 5px;\n}\n\n.pricingTable .price-value {\n    font-size: 170px;\n    line-height: 112px;\n    position: relative;\n    color: #e4f1ff;\n    margin: 40px 0;\n}\n\n@media only screen and (max-width:768px) {\n    .pricingTable .price-value {\n        font-size: 130px;\n    }\n}\n\n.pricingTable .price-value .value-bg {\n    display: inline-block;\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    transform: translateX(-50%) translateY(-50%);\n    color: #1386fc;\n    font-weight: 600;\n    font-size: 60px;\n    line-height: 60px;\n}\n\n.pricingTable-2 .price-value {\n    color: #e6e4ff;\n}\n\n.pricingTable-2 .price-value .value-bg {\n    color: #7564e5;\n}\n\n.pricingTable .pricing-content {\n    list-style: none;\n    padding: 0;\n    margin: 0 0 20px 0;\n}\n\n.pricing-content-border {}\n\n.pricing-content-border>li {\n    border: 1px solid #eee;\n    margin-bottom: 10px;\n}\n\n.pricingTable .pricing-content li {\n    line-height: 40px;\n}\n\n@media only screen and (max-width: 990px) {\n    .pricingTable {\n        margin-bottom: 30px;\n    }\n}\n\n@media only screen and (max-width: 767px) {\n    .pricingTable {\n        margin-bottom: 50px;\n    }\n}\n\n.btn-price-bg {\n    background: #7564e5;\n    border: 2px solid #7564e5;\n    border-radius: 5000px;\n    color: #fff;\n    display: inline-block;\n    font-size: 16px;\n    overflow: hidden;\n    padding: 12px 40px;\n    text-transform: capitalize;\n    transition: all 0.3s ease 0s;\n}\n\n.pricingTable:hover .btn-price-bg {\n    background: #232434;\n    color: #fff;\n    border: 2px solid #232434;\n}\n\n.section-title {\n    margin-bottom: 60px;\n}\n\nh1.section-title-white {\n    color: #fff;\n}\n.section-title h1 {\n    font-size: 44px;\n    font-weight: 500;\n    margin-top: 0;\n    position: relative;\n    text-transform: capitalize;\n    margin-bottom: 15px;\n}\np.section-title-white {\n    color: #fff;\n}\n.section-title p {\n    padding: 0 10px;\n    width: 70%;\n    margin: auto;\n    letter-spacing: 1px;\n}\n/* Importing fonts from Google */\n\n/* Reseting */\n* {\n    \n    font-family: 'Poppins', sans-serif;\n}\n\n\n@keyframes background-color {\n    0% {\n        background: linear-gradient(to bottom, #000428, #004683);\n    }\n\n    25% {\n        background: linear-gradient(135deg, #1a4223, #5ee95e);\n    }\n\n    50% {\n        background: linear-gradient(to bottom, #421a31, #e95ed2);\n    }\n\n    100% {\n        background: linear-gradient(-135deg, #fae37d, #881da8, #20668f);\n    }\n\n}\n\n.container {\n    margin-top: 80px;\n}\n\n.container .col-lg-4 {\n    display: flex;\n    justify-content: center;\n}\n\n.card {\n    width: 300px;\n    height: 300px;\n    transform-style: preserve-3d;\n    perspective: 500px;\n    border: none;\n    background-color: inherit;\n}\n\n.card .face {\n    position:#7564e5;\n    width: 100%;\n    height: 100%;\n    overflow: hidden;\n    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);\n    border-radius: 15px;\n    background: rgba(255, 255, 255, 0.06);\n    transform-style: preserve-3d;\n    transition: 0.5s;\n    backface-visibility: hidden;\n    border-top: 1px solid #ddd;\n    border-left: 1px solid #ddd;\n    /* border-right: 1px solid #999;\nborder-bottom: 1px solid #999; */\n}\n\n.card .face.front-face,\n.card .face.back-face {\n    position: absolute;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n}\n\n.card .face.front-face .profile {\n    width: 150px;\n    height: 150px;\n    border-radius: 50%;\n    -o-object-fit: cover;\n       object-fit: cover;\n}\n\n.card .face.front-face .name {\n    letter-spacing: 2px;\n}\n\n.card .face.front-face .designation {\n    font-size: 0.8rem;\n    color: #7564e5;\n    letter-spacing: 0.8px;\n}\n\n.card:hover .face.front-face {\n    transform: rotateY(180deg);\n}\n\n.card .face.back-face {\n    position: absolute;\n    background: rgba(255, 255, 255, 0.06);\n    transform: rotateY(180deg);\n    padding: 20px 30px;\n    text-align: center;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n            user-select: none;\n}\n\n.card .face.back-face .fa-quote-left {\n    position: absolute;\n    top: 25px;\n    left: 25px;\n    font-size: 1.2rem;\n}\n\n.card .face.back-face .fa-quote-right {\n    position: absolute;\n    bottom: 35px;\n    right: 25px;\n    font-size: 1.2rem;\n}\n\n.card:hover .face.back-face {\n    transform: rotateY(360deg);\n}\n\n@media(max-width: 991.5px) {\n    .col-lg-4 {\n        margin-top: 40px;\n        margin-bottom: 20px;\n    }\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
