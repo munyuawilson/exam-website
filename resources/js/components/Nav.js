@@ -35,13 +35,13 @@ export default function Nav(){
         </a>
       </li>
       <li className="nav-item px-1">
-        <a className="nav-link active text-black" aria-current="page" href="">
-          Pricing
+        <a className="nav-link active text-black"  href="#services">
+        Services
         </a>
       </li>
       <li className="nav-item px-1">
-        <a className="nav-link  text-black" href="#services">
-          Services
+        <a className="nav-link  text-black" href="#pricing">
+          Pricing
         </a>
       </li>
       <li className="nav-item px-1 ">
