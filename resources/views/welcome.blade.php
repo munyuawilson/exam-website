@@ -10,6 +10,7 @@
 <body>
     <div id="nav"></div>
     <div id='body'></div>
+    <div id='services'></div>
     
 </body>
 <script src="js/app.js"></script>
