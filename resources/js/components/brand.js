@@ -3,7 +3,7 @@ import "/css/app.css";
 
 
 
-export default function Body(){
+export default function Brand(){
 
     return (
         

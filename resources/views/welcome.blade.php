@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="nav"></div>
-    <div id='body'></div>
+    <div id='brand'></div>
     <div id='services'></div>
     <div id='pricing'></div>
     <div id='testimonial'></div>

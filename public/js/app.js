@@ -10,12 +10,12 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Nav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Nav */ "./resources/js/components/Nav.js");
-/* harmony import */ var _components_body__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/body */ "./resources/js/components/body.js");
-/* harmony import */ var _components_services__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/services */ "./resources/js/components/services.js");
-/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/footer */ "./resources/js/components/footer.js");
-/* harmony import */ var _components_pricing__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/pricing */ "./resources/js/components/pricing.js");
-/* harmony import */ var _components_testimonial__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/testimonial */ "./resources/js/components/testimonial.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var _components_services__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/services */ "./resources/js/components/services.js");
+/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/footer */ "./resources/js/components/footer.js");
+/* harmony import */ var _components_pricing__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/pricing */ "./resources/js/components/pricing.js");
+/* harmony import */ var _components_testimonial__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/testimonial */ "./resources/js/components/testimonial.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var _components_brand__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/brand */ "./resources/js/components/brand.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
@@ -26,12 +26,12 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
-react_dom__WEBPACK_IMPORTED_MODULE_6__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_0__["default"], {}), document.getElementById("nav"));
-react_dom__WEBPACK_IMPORTED_MODULE_6__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_body__WEBPACK_IMPORTED_MODULE_1__["default"], {}), document.getElementById("body"));
-react_dom__WEBPACK_IMPORTED_MODULE_6__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_services__WEBPACK_IMPORTED_MODULE_2__["default"], {}), document.getElementById("services"));
-react_dom__WEBPACK_IMPORTED_MODULE_6__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {}), document.getElementById("footer"));
-react_dom__WEBPACK_IMPORTED_MODULE_6__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_pricing__WEBPACK_IMPORTED_MODULE_4__["default"], {}), document.getElementById("pricing"));
-react_dom__WEBPACK_IMPORTED_MODULE_6__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_testimonial__WEBPACK_IMPORTED_MODULE_5__["default"], {}), document.getElementById("testimonial"));
+react_dom__WEBPACK_IMPORTED_MODULE_5__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_0__["default"], {}), document.getElementById("nav"));
+react_dom__WEBPACK_IMPORTED_MODULE_5__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_brand__WEBPACK_IMPORTED_MODULE_6__["default"], {}), document.getElementById("brand"));
+react_dom__WEBPACK_IMPORTED_MODULE_5__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_services__WEBPACK_IMPORTED_MODULE_1__["default"], {}), document.getElementById("services"));
+react_dom__WEBPACK_IMPORTED_MODULE_5__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {}), document.getElementById("footer"));
+react_dom__WEBPACK_IMPORTED_MODULE_5__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_pricing__WEBPACK_IMPORTED_MODULE_3__["default"], {}), document.getElementById("pricing"));
+react_dom__WEBPACK_IMPORTED_MODULE_5__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_testimonial__WEBPACK_IMPORTED_MODULE_4__["default"], {}), document.getElementById("testimonial"));
 
 /***/ }),
 
@@ -191,16 +191,16 @@ function Nav() {
 
 /***/ }),
 
-/***/ "./resources/js/components/body.js":
-/*!*****************************************!*\
-  !*** ./resources/js/components/body.js ***!
-  \*****************************************/
+/***/ "./resources/js/components/brand.js":
+/*!******************************************!*\
+  !*** ./resources/js/components/brand.js ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Body)
+/* harmony export */   "default": () => (/* binding */ Brand)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -210,7 +210,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function Body() {
+function Brand() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
     className: "container mt-5 ",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
