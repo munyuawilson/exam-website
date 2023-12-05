@@ -161,7 +161,7 @@ function Nav() {
             className: "nav-item px-1 ",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
               className: "nav-link text-white rounded px-3 py-2 bg-black",
-              href: "#contact",
+              href: "signup.blade.php",
               children: "Sign In"
             })
           })]

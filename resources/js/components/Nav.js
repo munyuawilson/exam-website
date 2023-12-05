@@ -57,7 +57,7 @@ export default function Nav(){
       <li className="nav-item px-1 ">
         <a
           className="nav-link text-white rounded px-3 py-2 bg-black"
-          href="#contact"
+          href="signup.blade.php"
         >
           Sign In
         </a>
