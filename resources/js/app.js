@@ -10,6 +10,8 @@ import Testimonial from './components/testimonial';
 import ReactDOM from 'react-dom';
 import Brand from './components/brand';
 import Secondsection from './components/secondsection';
+import LoginForm from './components/loginform';
+
 
 
 ReactDOM.render(<Nav />,document.getElementById("nav"));
@@ -20,3 +22,4 @@ ReactDOM.render(<Pricing />,document.getElementById("pricing"));
 ReactDOM.render(<Testimonial />,document.getElementById("testimonial"));
 
 ReactDOM.render(<Secondsection />,document.getElementById("secondsection"));
+ReactDOM.render(<LoginForm />,document.getElementById("form"));
