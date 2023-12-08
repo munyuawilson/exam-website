@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
+    <!--i dont know why its not rendering second component- form-->
 <div id="nav"></div>
 <div id="form"></div>
     
