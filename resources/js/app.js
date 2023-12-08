@@ -1,11 +1,13 @@
 require('./bootstrap');
-import Nav from './components/Nav'
+import ReactDOM from 'react-dom';
+import Nav from './components/Nav';
+
 
 import Services from './components/services';
 import Footer from './components/footer';
 import Pricing from './components/pricing';
 import Testimonial from './components/testimonial';
-import ReactDOM from 'react-dom';
+
 import Brand from './components/brand';
 import Secondsection from './components/secondsection';
 import LoginForm from './components/loginform';
