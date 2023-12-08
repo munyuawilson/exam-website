@@ -98,7 +98,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function Nav() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-    className: "container-fluid color",
+    className: "container-fluid color mb-5",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("nav", {
       className: "container-fluid navbar  navbar-expand-md fixed-top mb-5 color px-5",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("a", {

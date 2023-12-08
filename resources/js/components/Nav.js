@@ -7,7 +7,7 @@ import "/css/app.css";
 
 export default function Nav(){
 
-    return(<div className='container-fluid color'>
+    return(<div className='container-fluid color mb-5'>
         <nav className="container-fluid navbar  navbar-expand-md fixed-top mb-5 color px-5">
   <a className="navbar-brand text-black" aria-current="page" href="">Tuko site
     
