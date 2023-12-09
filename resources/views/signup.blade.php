@@ -12,8 +12,7 @@
     <!--i dont know why its not rendering second component- form-->
 <div id="nav"></div>
 <div id='form'></div>
-<div id='footer'></div>
-<div id='secondsection'></div>
+
 <script src="js/app.js"></script> 
 </body>
 

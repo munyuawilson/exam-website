@@ -9,7 +9,7 @@ export default function LoginForm(){
         <div>
             <div className="row custom-margin pt-5 mt-5">
   <div className="col-md-5 mx-auto box-shadow ">
-    <h4 className="text-center">Log in</h4>
+    <h3 className="text-center">Log In</h3>
     <div className="col-md-12">
       <form role="form" action="login.php" method="POST">
         <div className="form-group row">
