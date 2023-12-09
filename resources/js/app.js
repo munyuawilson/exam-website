@@ -1,6 +1,8 @@
 require('./bootstrap');
 import ReactDOM from 'react-dom';
 import Nav from './components/Nav';
+import { createRoot } from 'react-dom';
+
 
 
 import Services from './components/services';
@@ -11,7 +13,10 @@ import Testimonial from './components/testimonial';
 import Brand from './components/brand';
 import Secondsection from './components/secondsection';
 import LoginForm from './components/loginform';
+//ReactDOm is not being used lately
 
+const rootInstance = createRoot(document.getElementById("form"));
+rootInstance.render(<LoginForm />);
 
 
 ReactDOM.render(<Nav />,document.getElementById("nav"));

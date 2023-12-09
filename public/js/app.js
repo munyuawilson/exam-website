@@ -30,6 +30,10 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
+//ReactDOm is not being used lately
+
+var rootInstance = (0,react_dom__WEBPACK_IMPORTED_MODULE_0__.createRoot)(document.getElementById("form"));
+rootInstance.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_loginform__WEBPACK_IMPORTED_MODULE_8__["default"], {}));
 react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {}), document.getElementById("nav"));
 react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_brand__WEBPACK_IMPORTED_MODULE_6__["default"], {}), document.getElementById("brand"));
 react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_services__WEBPACK_IMPORTED_MODULE_2__["default"], {}), document.getElementById("services"));
