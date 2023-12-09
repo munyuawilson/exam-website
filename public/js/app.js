@@ -33,16 +33,25 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 //ReactDOm is not being used lately
 
-var rootInstance = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("form"));
-rootInstance.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_loginform__WEBPACK_IMPORTED_MODULE_9__["default"], {}));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {}), document.getElementById("nav"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_brand__WEBPACK_IMPORTED_MODULE_7__["default"], {}), document.getElementById("brand"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_services__WEBPACK_IMPORTED_MODULE_3__["default"], {}), document.getElementById("services"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_4__["default"], {}), document.getElementById("footer"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_pricing__WEBPACK_IMPORTED_MODULE_5__["default"], {}), document.getElementById("pricing"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_testimonial__WEBPACK_IMPORTED_MODULE_6__["default"], {}), document.getElementById("testimonial"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_secondsection__WEBPACK_IMPORTED_MODULE_8__["default"], {}), document.getElementById("secondsection"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_loginform__WEBPACK_IMPORTED_MODULE_9__["default"], {}), document.getElementById("form"));
+var form = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("form"));
+form.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_loginform__WEBPACK_IMPORTED_MODULE_9__["default"], {}));
+var nav = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("nav")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {}));
+var brand = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("brand")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_brand__WEBPACK_IMPORTED_MODULE_7__["default"], {}));
+var services = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("services")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_services__WEBPACK_IMPORTED_MODULE_3__["default"], {}));
+var footer = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("footer")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_4__["default"], {}));
+var pricing = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("pricing")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_pricing__WEBPACK_IMPORTED_MODULE_5__["default"], {}));
+var secondsection = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("secondsection")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_secondsection__WEBPACK_IMPORTED_MODULE_8__["default"], {}));
+var testimonial = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("testimonial")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_testimonial__WEBPACK_IMPORTED_MODULE_6__["default"], {}));
+/*
+ReactDOM.render(<Nav />,document.getElementById("nav"));
+ReactDOM.render(<Brand />,document.getElementById("brand"));
+ReactDOM.render(<Services />,document.getElementById("services"));
+ReactDOM.render(<Footer />,document.getElementById("footer"));
+ReactDOM.render(<Pricing />,document.getElementById("pricing"));
+ReactDOM.render(<Testimonial />,document.getElementById("testimonial"));
+
+ReactDOM.render(<Secondsection />,document.getElementById("secondsection"));
+*/
 
 /***/ }),
 
