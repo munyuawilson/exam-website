@@ -1,7 +1,7 @@
 require('./bootstrap');
 import ReactDOM from 'react-dom';
 import Nav from './components/Nav';
-import { createRoot } from 'react-dom';
+import { createRoot } from 'react-dom/client';
 
 
 

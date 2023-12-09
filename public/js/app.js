@@ -11,14 +11,15 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var _components_Nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Nav */ "./resources/js/components/Nav.js");
-/* harmony import */ var _components_services__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/services */ "./resources/js/components/services.js");
-/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/footer */ "./resources/js/components/footer.js");
-/* harmony import */ var _components_pricing__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/pricing */ "./resources/js/components/pricing.js");
-/* harmony import */ var _components_testimonial__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/testimonial */ "./resources/js/components/testimonial.js");
-/* harmony import */ var _components_brand__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/brand */ "./resources/js/components/brand.js");
-/* harmony import */ var _components_secondsection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/secondsection */ "./resources/js/components/secondsection.js");
-/* harmony import */ var _components_loginform__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/loginform */ "./resources/js/components/loginform.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
+/* harmony import */ var _components_services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/services */ "./resources/js/components/services.js");
+/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/footer */ "./resources/js/components/footer.js");
+/* harmony import */ var _components_pricing__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/pricing */ "./resources/js/components/pricing.js");
+/* harmony import */ var _components_testimonial__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/testimonial */ "./resources/js/components/testimonial.js");
+/* harmony import */ var _components_brand__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/brand */ "./resources/js/components/brand.js");
+/* harmony import */ var _components_secondsection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/secondsection */ "./resources/js/components/secondsection.js");
+/* harmony import */ var _components_loginform__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/loginform */ "./resources/js/components/loginform.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
@@ -32,16 +33,16 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 //ReactDOm is not being used lately
 
-var rootInstance = (0,react_dom__WEBPACK_IMPORTED_MODULE_0__.createRoot)(document.getElementById("form"));
-rootInstance.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_loginform__WEBPACK_IMPORTED_MODULE_8__["default"], {}));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {}), document.getElementById("nav"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_brand__WEBPACK_IMPORTED_MODULE_6__["default"], {}), document.getElementById("brand"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_services__WEBPACK_IMPORTED_MODULE_2__["default"], {}), document.getElementById("services"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {}), document.getElementById("footer"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_pricing__WEBPACK_IMPORTED_MODULE_4__["default"], {}), document.getElementById("pricing"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_testimonial__WEBPACK_IMPORTED_MODULE_5__["default"], {}), document.getElementById("testimonial"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_secondsection__WEBPACK_IMPORTED_MODULE_7__["default"], {}), document.getElementById("secondsection"));
-react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_loginform__WEBPACK_IMPORTED_MODULE_8__["default"], {}), document.getElementById("form"));
+var rootInstance = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("form"));
+rootInstance.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_loginform__WEBPACK_IMPORTED_MODULE_9__["default"], {}));
+react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {}), document.getElementById("nav"));
+react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_brand__WEBPACK_IMPORTED_MODULE_7__["default"], {}), document.getElementById("brand"));
+react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_services__WEBPACK_IMPORTED_MODULE_3__["default"], {}), document.getElementById("services"));
+react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_4__["default"], {}), document.getElementById("footer"));
+react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_pricing__WEBPACK_IMPORTED_MODULE_5__["default"], {}), document.getElementById("pricing"));
+react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_testimonial__WEBPACK_IMPORTED_MODULE_6__["default"], {}), document.getElementById("testimonial"));
+react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_secondsection__WEBPACK_IMPORTED_MODULE_8__["default"], {}), document.getElementById("secondsection"));
+react_dom__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_loginform__WEBPACK_IMPORTED_MODULE_9__["default"], {}), document.getElementById("form"));
 
 /***/ }),
 
@@ -50202,6 +50203,39 @@ if (
 }
         
   })();
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/react-dom/client.js":
+/*!******************************************!*\
+  !*** ./node_modules/react-dom/client.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+var m = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+if (false) {} else {
+  var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+  exports.createRoot = function(c, o) {
+    i.usingClientEntryPoint = true;
+    try {
+      return m.createRoot(c, o);
+    } finally {
+      i.usingClientEntryPoint = false;
+    }
+  };
+  exports.hydrateRoot = function(c, h, o) {
+    i.usingClientEntryPoint = true;
+    try {
+      return m.hydrateRoot(c, h, o);
+    } finally {
+      i.usingClientEntryPoint = false;
+    }
+  };
 }
 
 
