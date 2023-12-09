@@ -50,11 +50,12 @@ export default function LoginForm(){
               <a href="forgot.php">Forgot Password</a>
             </small>
             <small>
+              <br/>
               <a href="create.php">Sign-Up</a>
             </small>
           </div>
         </div>
-        <div className="form-group row">
+        <div className="form-group row text-center">
           <div className="pw">
             <button type="submit" className="btn btn-primary">
               Sign in
