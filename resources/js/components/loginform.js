@@ -46,6 +46,13 @@ export default function LoginForm(){
               placeholder="Password"
               required=""
             />
+            <div className="form-group row mt-3">
+          <div className="pw">
+            <button type="submit" className="btn btn-primary">
+              Sign in
+            </button>
+          </div>
+        </div>
             <small>
               <a href="forgot.php">Forgot Password</a>
             </small>
@@ -55,13 +62,7 @@ export default function LoginForm(){
             </small>
           </div>
         </div>
-        <div className="form-group row text-center">
-          <div className="pw">
-            <button type="submit" className="btn btn-primary">
-              Sign in
-            </button>
-          </div>
-        </div>
+        
       </form>
     </div>
   </div>
