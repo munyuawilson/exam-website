@@ -9,19 +9,18 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 /* harmony import */ var _components_Nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Nav */ "./resources/js/components/Nav.js");
-/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
-/* harmony import */ var _components_services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/services */ "./resources/js/components/services.js");
-/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/footer */ "./resources/js/components/footer.js");
-/* harmony import */ var _components_pricing__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/pricing */ "./resources/js/components/pricing.js");
-/* harmony import */ var _components_testimonial__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/testimonial */ "./resources/js/components/testimonial.js");
-/* harmony import */ var _components_brand__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/brand */ "./resources/js/components/brand.js");
-/* harmony import */ var _components_secondsection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/secondsection */ "./resources/js/components/secondsection.js");
-/* harmony import */ var _components_loginform__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/loginform */ "./resources/js/components/loginform.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _components_services__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/services */ "./resources/js/components/services.js");
+/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/footer */ "./resources/js/components/footer.js");
+/* harmony import */ var _components_pricing__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/pricing */ "./resources/js/components/pricing.js");
+/* harmony import */ var _components_testimonial__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/testimonial */ "./resources/js/components/testimonial.js");
+/* harmony import */ var _components_brand__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/brand */ "./resources/js/components/brand.js");
+/* harmony import */ var _components_secondsection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/secondsection */ "./resources/js/components/secondsection.js");
+/* harmony import */ var _components_loginform__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/loginform */ "./resources/js/components/loginform.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
+//import ReactDOM from 'react-dom';
 
 
 
@@ -33,15 +32,15 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 //ReactDOm is not being used lately
 
-var form = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("form"));
-form.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_loginform__WEBPACK_IMPORTED_MODULE_9__["default"], {}));
-var nav = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("nav")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {}));
-var brand = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("brand")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_brand__WEBPACK_IMPORTED_MODULE_7__["default"], {}));
-var services = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("services")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_services__WEBPACK_IMPORTED_MODULE_3__["default"], {}));
-var footer = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("footer")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_4__["default"], {}));
-var pricing = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("pricing")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_pricing__WEBPACK_IMPORTED_MODULE_5__["default"], {}));
-var secondsection = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("secondsection")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_secondsection__WEBPACK_IMPORTED_MODULE_8__["default"], {}));
-var testimonial = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("testimonial")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_testimonial__WEBPACK_IMPORTED_MODULE_6__["default"], {}));
+var form = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(document.getElementById("form"));
+form.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_loginform__WEBPACK_IMPORTED_MODULE_8__["default"], {}));
+var nav = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(document.getElementById("nav")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {}));
+var brand = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(document.getElementById("brand")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_brand__WEBPACK_IMPORTED_MODULE_6__["default"], {}));
+var services = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(document.getElementById("services")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_services__WEBPACK_IMPORTED_MODULE_2__["default"], {}));
+var footer = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(document.getElementById("footer")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {}));
+var pricing = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(document.getElementById("pricing")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_pricing__WEBPACK_IMPORTED_MODULE_4__["default"], {}));
+var secondsection = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(document.getElementById("secondsection")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_secondsection__WEBPACK_IMPORTED_MODULE_7__["default"], {}));
+var testimonial = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(document.getElementById("testimonial")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_testimonial__WEBPACK_IMPORTED_MODULE_5__["default"], {}));
 /*
 ReactDOM.render(<Nav />,document.getElementById("nav"));
 ReactDOM.render(<Brand />,document.getElementById("brand"));
