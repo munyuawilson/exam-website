@@ -18,8 +18,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_brand__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/brand */ "./resources/js/components/brand.js");
 /* harmony import */ var _components_secondsection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/secondsection */ "./resources/js/components/secondsection.js");
 /* harmony import */ var _components_loginform__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/loginform */ "./resources/js/components/loginform.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 //import ReactDOM from 'react-dom';
 
@@ -44,32 +43,53 @@ const pricing= createRoot(document.getElementById("pricing")).render(<Pricing />
 const secondsection= createRoot(document.getElementById("secondsection")).render(<Secondsection />);
 const form= createRoot(document.getElementById("form")).render(<LoginForm />);
 const testimonial= createRoot(document.getElementById("testimonial")).render(<Testimonial />);
-
-ReactDOM.render(<Nav />,document.getElementById("nav"));
-ReactDOM.render(<Brand />,document.getElementById("brand"));
-ReactDOM.render(<Services />,document.getElementById("services"));
-ReactDOM.render(<Footer />,document.getElementById("footer"));
-ReactDOM.render(<Pricing />,document.getElementById("pricing"));
-ReactDOM.render(<Testimonial />,document.getElementById("testimonial"));
-
-ReactDOM.render(<Secondsection />,document.getElementById("secondsection"));
 */
 
+react_dom_client__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {}), document.getElementById("nav"));
+react_dom_client__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_brand__WEBPACK_IMPORTED_MODULE_6__["default"], {}), document.getElementById("brand"));
+react_dom_client__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_services__WEBPACK_IMPORTED_MODULE_2__["default"], {}), document.getElementById("services"));
+react_dom_client__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {}), document.getElementById("footer"));
+react_dom_client__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_pricing__WEBPACK_IMPORTED_MODULE_4__["default"], {}), document.getElementById("pricing"));
+react_dom_client__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_testimonial__WEBPACK_IMPORTED_MODULE_5__["default"], {}), document.getElementById("testimonial"));
+react_dom_client__WEBPACK_IMPORTED_MODULE_0__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_secondsection__WEBPACK_IMPORTED_MODULE_7__["default"], {}), document.getElementById("secondsection"));
+/*
+function App(){
 
-function App() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_secondsection__WEBPACK_IMPORTED_MODULE_7__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_brand__WEBPACK_IMPORTED_MODULE_6__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_services__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_pricing__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_testimonial__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
-  });
+    return (
+<div>
+        <Nav />
+        <Secondsection />
+        <Brand />
+        <Services />
+        <Pricing />
+        <Testimonial />
+        <Footer />
+        
+        
+</div>
+       
+    );
 }
-function Login() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxs)("div", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_loginform__WEBPACK_IMPORTED_MODULE_8__["default"], {})]
-  });
+function Login(){
+
+    return (
+<div>
+        <Nav />
+        
+        
+        <LoginForm />
+</div>
+       
+    );
 }
-var app = react_dom__WEBPACK_IMPORTED_MODULE_9__.createRoot(document.getElementById("app"));
-app.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(App, {}));
-var login = react_dom__WEBPACK_IMPORTED_MODULE_9__.createRoot(document.getElementById("login"));
-login.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(Login, {}));
+
+
+const app = ReactDOM.createRoot(document.getElementById("app"));
+app.render(<App />);
+
+const login = ReactDOM.createRoot(document.getElementById("login"));
+login.render(<Login />);
+*/
 
 /***/ }),
 
