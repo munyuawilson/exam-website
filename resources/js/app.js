@@ -9,7 +9,7 @@ import Testimonial from './components/testimonial';
 import Brand from './components/brand';
 import Secondsection from './components/secondsection';
 import LoginForm from './components/loginform';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 
 //ReactDOm is not being used lately
 /*
@@ -63,11 +63,11 @@ function Login(){
     );
 }
 
-
+const login = ReactDOM.createRoot(document.getElementById("login"));
+login.render(<Login />);
 const app = ReactDOM.createRoot(document.getElementById("app"));
 app.render(<App />);
 
-const login = ReactDOM.createRoot(document.getElementById("login"));
-login.render(<Login />);
+
 
 
