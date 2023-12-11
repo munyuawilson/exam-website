@@ -27,6 +27,7 @@ export default function LoginForm(){
               id="inputEmail3"
               placeholder="Email"
               required=""
+              autoComplete='email'
             />
           </div>
         </div>
