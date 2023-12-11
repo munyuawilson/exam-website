@@ -2,10 +2,6 @@ require('./bootstrap');
 //import ReactDOM from 'react-dom';
 import { createRoot } from 'react-dom/client';
 import Nav from './components/Nav';
-
-
-
-
 import Services from './components/services';
 import Footer from './components/footer';
 import Pricing from './components/pricing';
@@ -14,7 +10,7 @@ import Testimonial from './components/testimonial';
 import Brand from './components/brand';
 import Secondsection from './components/secondsection';
 import LoginForm from './components/loginform';
-import { Form } from 'react-bootstrap';
+
 
 //ReactDOm is not being used lately
 

@@ -30,6 +30,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
+
 //ReactDOm is not being used lately
 
 var nav = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(document.getElementById("nav")).render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_9__.jsx)(_components_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {}));
@@ -49,6 +50,26 @@ ReactDOM.render(<Pricing />,document.getElementById("pricing"));
 ReactDOM.render(<Testimonial />,document.getElementById("testimonial"));
 
 ReactDOM.render(<Secondsection />,document.getElementById("secondsection"));
+
+
+function App(){
+
+    return (
+<div>
+        <Nav />
+        <Brand />
+        <Services />
+        <Footer />
+        <Pricing />
+        <Testimonial />
+        <Secondsection />
+        <Form />
+</div>
+       
+    );
+}
+
+const app= createRoot(document.getElementById("nav")).render(<App />);
 */
 
 /***/ }),
