@@ -41,11 +41,11 @@ function App(){
         <Secondsection />
         <Brand />
         <Services />
-        <Footer />
         <Pricing />
         <Testimonial />
+        <Footer />
         
-        <LoginForm />
+        
 </div>
        
     );
