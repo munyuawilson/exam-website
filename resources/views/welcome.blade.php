@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    <div id="nav"></div>
+    <div id="app"></div>
     
     <div id='secondsection'></div>
     <div id='brand'></div>
