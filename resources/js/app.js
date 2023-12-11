@@ -14,10 +14,11 @@ import Testimonial from './components/testimonial';
 import Brand from './components/brand';
 import Secondsection from './components/secondsection';
 import LoginForm from './components/loginform';
+import { Form } from 'react-bootstrap';
+
 //ReactDOm is not being used lately
 
-const form= createRoot(document.getElementById("form"));
-form.render(<LoginForm />);
+
 const nav= createRoot(document.getElementById("nav")).render(<Nav />);
 const brand= createRoot(document.getElementById("brand")).render(<Brand />);
 const services= createRoot(document.getElementById("services")).render(<Services />);
@@ -25,7 +26,7 @@ const footer= createRoot(document.getElementById("footer")).render(<Footer />);
 const pricing= createRoot(document.getElementById("pricing")).render(<Pricing />);
 
 const secondsection= createRoot(document.getElementById("secondsection")).render(<Secondsection />);
-
+const form= createRoot(document.getElementById("form")).render(<LoginForm />);
 const testimonial= createRoot(document.getElementById("testimonial")).render(<Testimonial />);
 /*
 ReactDOM.render(<Nav />,document.getElementById("nav"));
@@ -36,4 +37,24 @@ ReactDOM.render(<Pricing />,document.getElementById("pricing"));
 ReactDOM.render(<Testimonial />,document.getElementById("testimonial"));
 
 ReactDOM.render(<Secondsection />,document.getElementById("secondsection"));
+
+
+function App(){
+
+    return (
+<div>
+        <Nav />
+        <Brand />
+        <Services />
+        <Footer />
+        <Pricing />
+        <Testimonial />
+        <Secondsection />
+        <Form />
+</div>
+       
+    );
+}
+
+const app= createRoot(document.getElementById("nav")).render(<App />);
 */
