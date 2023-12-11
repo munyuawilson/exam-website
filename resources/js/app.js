@@ -68,6 +68,6 @@ const app = ReactDOM.createRoot(document.getElementById("app"));
 app.render(<App />);
 
 const login = ReactDOM.createRoot(document.getElementById("login"));
-app.render(<Login />);
+login.render(<Login />);
 
 

@@ -69,7 +69,7 @@ function Login() {
 var app = react_dom__WEBPACK_IMPORTED_MODULE_9__.createRoot(document.getElementById("app"));
 app.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(App, {}));
 var login = react_dom__WEBPACK_IMPORTED_MODULE_9__.createRoot(document.getElementById("login"));
-app.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(Login, {}));
+login.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(Login, {}));
 
 /***/ }),
 
