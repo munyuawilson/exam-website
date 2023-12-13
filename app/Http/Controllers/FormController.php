@@ -15,7 +15,7 @@ class FormController extends Controller
         // Perform authentication or any other processing
 
         // Redirect or return a response
-        return redirect()->route('home');
+        return view('signup');
     }
     //
 }

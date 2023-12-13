@@ -12,7 +12,7 @@ export default function LoginForm(){
     <h3 className="text-center">Log In</h3>
     <div className="col-md-12">
       <form role="form" action="{{ route('submit-form') }}" method="POST">
-        @csrf
+        
         <div className="form-group row">
           <label
             htmlFor="inputEmail3"
