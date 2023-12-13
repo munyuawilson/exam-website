@@ -11,7 +11,7 @@ export default function LoginForm(){
   <div className="col-md-5 mx-auto box-shadow ">
     <h3 className="text-center">Log In</h3>
     <div className="col-md-12">
-      <form role="form" action="login.php" method="POST">
+      <form role="form" action="{{ route('submit-form') }}" method="POST">
         <div className="form-group row">
           <label
             htmlFor="inputEmail3"
