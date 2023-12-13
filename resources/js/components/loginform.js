@@ -48,7 +48,7 @@ export default function LoginForm(){
               required=""
             />
             <div className="form-group row mt-3">
-          <div className="pw">
+          <div className="pw pd-3 md-3">
             <button type="submit" className="btn btn-primary">
               Sign in
             </button>
