@@ -359,7 +359,7 @@ function LoginForm() {
           className: "col-md-12",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("form", {
             role: "form",
-            action: "login.php",
+            action: "{{ route('submit-form') }}",
             method: "POST",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
               className: "form-group row",
