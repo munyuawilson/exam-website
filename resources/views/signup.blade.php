@@ -12,6 +12,7 @@
     <!--i dont know why its not rendering second component- form-->
 <div id="login"></div>
 
+
 <script src="js/app.js"></script> 
 </body>
 
