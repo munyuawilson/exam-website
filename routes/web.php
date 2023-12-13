@@ -19,3 +19,5 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('signup');
 });
+
+Route::post('/submit-form', 'FormController@submitForm')->name('submit-form');
