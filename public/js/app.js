@@ -397,7 +397,7 @@ function LoginForm() {
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
                   className: "form-group row mt-3",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-                    className: "pw pd-3",
+                    className: "pw pd-3 md-3",
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
                       type: "submit",
                       className: "btn btn-primary",
