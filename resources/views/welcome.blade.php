@@ -10,13 +10,6 @@
 <body>
     <div id="app"></div>
     
-    <div id='secondsection'></div>
-    <div id='brand'></div>
-    <div id='services'></div>
-    <div id='pricing'></div>
-    
-    <div id='testimonial'></div>
-    <div id='footer'></div>
     
     
     
