@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class FormController extends Controller
 {
-    public function submitForm(Request $request)
+    public function SubmitForm(Request $request)
     {
         // Handle form submission here
         $name = $request->input('name');
