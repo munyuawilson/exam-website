@@ -1,6 +1,32 @@
 import React from 'react';
 import "/css/app.css";
 
+const handleSubmit = async (event) => {
+  event.preventDefault(); // Prevent default form submission
+
+  try {
+    const response = await fetch('/login', { // Assuming your Laravel route is '/login'
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+      },
+      body: JSON.stringify({
+        email: email, // Get email and password from your component's state
+        password: password,
+      }),
+    });
+
+    if (response.ok) {
+      // Handle successful login (e.g., redirect to a protected page)
+    } else {
+      // Handle login error (e.g., display error messages)
+    }
+  } catch (error) {
+    console.error(error);
+  }
+};
+
 
 export default function LoginForm(){
 
@@ -11,7 +37,7 @@ export default function LoginForm(){
   <div className="col-md-5 mx-auto box-shadow ">
     <h3 className="text-center">Log In</h3>
     <div className="col-md-12">
-      <form role="form" action="{{ route('submit-form') }}" method="POST">
+      <form role="form" action={handleSubmit} method="POST">
         
         <div className="form-group row">
           <label

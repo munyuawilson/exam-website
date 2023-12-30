@@ -20,4 +20,10 @@ Route::get('/login', function () {
     return view('signup');
 });
 
-Route::post('/submit-form', 'FormController@SubmitForm')->name('submit-form');
+//Route::get('/submit-form', 'FormController@SubmitForm')->name('submit-form');
+Route::post('/submit-form', function(){
+
+    return view('signup');
+
+});
+

@@ -10,12 +10,12 @@ class FormController extends Controller
     {
         // Handle form submission here
         $name = $request->input('name');
-        echo $name;
+        
 
         // Perform authentication or any other processing
 
         // Redirect or return a response
-        return view('signup');
+        return view('hello');
     }
     //
 }
