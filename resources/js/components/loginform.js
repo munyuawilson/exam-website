@@ -5,7 +5,7 @@ const handleSubmit = async (event) => {
   event.preventDefault(); // Prevent default form submission
 
   try {
-    const response = await fetch('/login', { // Assuming your Laravel route is '/login'
+    const response = await fetch('/submit-form', { // Assuming your Laravel route is '/login'
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -21,6 +21,7 @@ const handleSubmit = async (event) => {
       // Handle successful login (e.g., redirect to a protected page)
     } else {
       // Handle login error (e.g., display error messages)
+      
     }
   } catch (error) {
     console.error(error);
