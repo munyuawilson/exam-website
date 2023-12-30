@@ -16,14 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/login', function () {
+Route::post('/login', function () {
     return view('signup');
 });
 
-//Route::get('/submit-form', 'FormController@SubmitForm')->name('submit-form');
-Route::post('/submit-form', function(){
+Route::get('/submit-form', 'FormController@SubmitForm')->name('submit-form');
+/*Route::post('/submit-form', function(){
 
     return view('signup');
 
-});
+});*/
 
